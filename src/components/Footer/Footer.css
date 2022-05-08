@@ -1,0 +1,42 @@
+/* footer at the bottom */
+footer {
+    background-color: #f1f1f4;
+    height: 200px;
+  }
+  
+  /* footer icons  */
+  footer p button {
+    background-color: transparent;
+    border: none;
+    color: #706f6f;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  
+  footer p button:focus {
+    outline: none;
+  }
+  
+  footer p button:hover {
+    color: #dadadd;
+  }
+  
+  i {
+    font-size: 25px;
+    padding: 30px;
+  }
+  
+  footer p {
+    margin-right: 50%;
+    margin-left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .copyright {
+    color: #706f6f;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+  }
