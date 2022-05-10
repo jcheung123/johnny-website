@@ -16,8 +16,10 @@ function About(props) {
         )}
   
         {role && <h2 className='about__role'>A {role}.</h2>}
-        <p className='about__desc'>{description && description}</p>
         <br />
+        <img className='about__img' src="AboutMeImgs/JohnnyImg.jpeg" alt="johnnyimg" />
+
+        <p className='about__desc'>{description && description}</p>
         <p className='about__desc'>{description2 && description2}</p>
   
         <div className='about__contact center'>

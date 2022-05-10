@@ -1,6 +1,6 @@
 .about {
     flex-direction: column;
-    margin-top: 10em;
+    margin-top: 8em;
 }
   
 .about__name {
@@ -10,9 +10,16 @@
 .about__role {
     margin-top: 1.2em;
 }
+
+.about__img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
   
 .about__desc {
     font-size: 1.1rem;
+    line-height: 1.6;
     max-width: 600px;
 }
   
