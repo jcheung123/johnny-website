@@ -30,11 +30,11 @@ function About(props) {
           {social && (
             <>
               {social.github && (
-                <a href={social.github} className='link'>GitHub {'>'}</a>
+                <a href={social.github} className='link'><i class="devicon-github-original colored"></i></a>
               )}
   
               {social.linkedin && (
-                <a href={social.linkedin} className='link'>LinkedIn {'>'}</a>
+                <a href={social.linkedin} className='link'><i class="devicon-linkedin-plain colored"></i></a>
               )}
             </>
           )}

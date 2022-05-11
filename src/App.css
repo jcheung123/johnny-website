@@ -89,3 +89,9 @@ main {
 .btn--icon:active {
   transform: translateY(-5px);
 }
+
+/* icons styling */
+
+i {
+  font-size: 40px;
+}

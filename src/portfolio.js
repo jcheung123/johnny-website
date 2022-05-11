@@ -60,20 +60,19 @@ const projects = [
 ]
 
 const skills = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'NodeJS',
-  'ExpressJS',
-  'MongoDB',
-  'Python',
-  'Django',
-  'PostgreSQL',
-  'Boostrap',
-  'Tailwind CSS',
-  'Git'
+    <i class="devicon-html5-plain colored"></i>,
+    <i class="devicon-css3-plain colored"></i>,
+    <i class="devicon-javascript-plain colored"></i>,
+    <i class="devicon-react-original colored"></i>,
+    <i class="devicon-python-plain colored"></i>,
+    <i class="devicon-nodejs-plain colored"></i>,
+    <i class="devicon-express-original colored"></i>,
+    <i class="devicon-mongodb-plain colored"></i>,
+    <i class="devicon-django-plain colored"></i>,
+    <i class="devicon-postgresql-plain colored"></i>,
+    <i class="devicon-bootstrap-plain colored"></i>,
+    <i class="devicon-tailwindcss-plain colored"></i>,
+    <i class="devicon-git-plain colored"></i>,
 ]
 
 const contact = {
