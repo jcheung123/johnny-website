@@ -12,6 +12,9 @@ function Footer(props) {
                 <button><i class="fab fa-linkedin"></i></button>
             </p>
             <div class="copyright">
+                <span> made with react and lots of googling</span>
+            </div>
+            <div class="copyright">
                 <span> &copy; 2022 johnnnycheung</span>
             </div>
         </footer>

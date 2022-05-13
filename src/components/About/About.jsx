@@ -1,10 +1,11 @@
 import React from 'react';
-import { about } from '../../portfolio'
+import { about, contact } from '../../portfolio'
 import './About.css'
 
 
 function About(props) {
-    const { name, role, description, description2, resume, social } = about
+    const { name, role, description, description2, social } = about
+    const {email} = contact
 
     return (
       <div className='about center'>
@@ -23,8 +24,8 @@ function About(props) {
         <p className='about__desc'>{description2 && description2}</p>
   
         <div className='about__contact center'>
-          {resume && (
-            <a href={resume} className='link'>Resume {'>'}</a>
+          {email && (
+            <a href={`mailto:${contact}`} className='link'><i class="fas fa-envelope"></i></a>
           )}
   
           {social && (

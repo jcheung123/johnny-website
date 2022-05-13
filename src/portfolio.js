@@ -76,8 +76,7 @@ const skills = [
 ]
 
 const contact = {
-  email: 'cheungjc@outlook.com',
-  linkedin: 'https://www.linkedin.com/in/cheung-johnny/',
+  email: 'cheungjc@outlook.com'
 }
 
 export { header, about, projects, skills, contact }
