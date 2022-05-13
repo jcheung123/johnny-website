@@ -1,10 +1,10 @@
 const header = {
   homepage: 'https://johnnycheung.me',
   title: '< JC / >',
-  linkOne: 'About',
-  linkTwo: 'Projects',
-  linkThree: 'Skills',
-  linkFour: 'Contact',
+  linkAbout: 'About',
+  linkProjects: 'Projects',
+  linkSkills: 'Skills',
+  linkContact: 'Contact',
 }
 
 const about = {

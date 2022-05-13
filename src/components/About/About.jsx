@@ -25,7 +25,7 @@ function About(props) {
   
         <div className='about__contact center'>
           {email && (
-            <a href={`mailto:${contact}`} className='link'><i class="fas fa-envelope"></i></a>
+            <a href={`mailto:${contact.email}`} className='link'><i class="fas fa-envelope"></i></a>
           )}
   
           {social && (
