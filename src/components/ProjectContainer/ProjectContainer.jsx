@@ -22,7 +22,7 @@ const ProjectContainer = ({ project }) => (
     )}
 
     {project.livePreview && (
-      <a href={project.livePreview} className='link'>Preview Demo {'>'}</a>
+      <a href={project.livePreview} className='link'>Preview {'>'}</a>
     )}
   </div>
 )

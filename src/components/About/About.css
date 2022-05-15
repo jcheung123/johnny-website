@@ -27,3 +27,34 @@
 .about__contact {
     margin-top: 2.4em;
 }
+
+@media (max-width: 650px) {
+    .about__desc {
+        font-size: 0.9rem;
+    }
+    .about__img {
+        height: 220px;
+        width: 220px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about__desc {
+        font-size: 0.7rem;
+    }
+    .about__img {
+        height: 180px;
+        width: 180px;
+    }
+}
+
+@media (max-width: 432px) {
+    .about__desc {
+        font-size: 0.6rem;
+    }
+    .about__img {
+        height: 150px;
+        width: 150px;
+    }
+}
+

@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   color: #444;
@@ -15,8 +15,8 @@
 }
 
 main {
-  max-width: 1100px;
-  width: 95%;
+  max-width: 95%;
+  overflow-x: hidden;
   margin: 0 auto;
 }
 
@@ -94,4 +94,42 @@ main {
 
 i {
   font-size: 40px;
+}
+
+/* general media queries */
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 3.8rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  i {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3.4rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  i {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 432px) {
+  h1 {
+    font-size: 3.0rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  i {
+    font-size: 24px;
+  }
 }

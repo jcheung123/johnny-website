@@ -6,7 +6,7 @@ input {
 }
 
 #email {
-    margin-left: 20px;
+    margin-left: 17px;
 }
 
 textarea {
@@ -16,3 +16,21 @@ textarea {
     border-radius: 5px 5px;
     padding: 15px;
 }
+
+@media (max-width: 650px) {
+    input {
+        width: 200px;
+    }
+    textarea {
+        width: 415px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    input {
+        width: 140px;
+    }
+    textarea {
+        width: 300px;
+    }
+  }
