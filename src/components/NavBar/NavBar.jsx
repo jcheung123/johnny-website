@@ -9,7 +9,7 @@ function NavBar(props) {
     return (
         <nav className="nav">
             <div className="container">
-                <h3>
+                <h3 className="logo">
                     {homepage ? (<a href={homepage} className='link'>{title}</a>) : (title)}
                 </h3>
                 <ul>
