@@ -9,9 +9,9 @@ function NavBar(props) {
     return (
         <nav className="nav">
             <div className="container">
-                <h3 className="logo">
-                    {homepage ? (<a href={homepage} className='link'>{title}</a>) : (title)}
-                </h3>
+                <a href={homepage}>
+                    <img className="logo__img" alt="logoimg" src={title} />
+                </a>
                 <ul>
                     <li>
                         <Scroll to="about" activeClass="active" spy={true}>{linkAbout}</Scroll>
