@@ -9,7 +9,7 @@ const header = {
 
 const about = {
   name: 'Johnny Cheung',
-  role: 'Software Developer',
+  role: ['Full Stack Developer', 'Software Engineer', 'Part-Time Food Blogger', 'Travel Geek' ],
   description:
     'Full stack developer with a background in healthcare sciences, where I enhanced my development in communication, teamwork, and problem solving skills. I am very passionate when it comes to learning new technologies, and strive to provide solutions to complex problems through innovative techniques. Ultimately, my goal is to create applications that will optimize both the client and user experience.',
   description2: 'Feel free to reach out for a chat, discussion or anything else in between!',

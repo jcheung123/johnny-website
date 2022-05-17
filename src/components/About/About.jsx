@@ -1,11 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState, useRef } from "react";
 import { about, contact } from '../../portfolio'
+import useTypewriter from "react-typewriter-hook"
 import './About.css'
 
+let index = 0;
 
 function About(props) {
     const { name, role, description, description2, social } = about
     const {email} = contact
+    
+    const [currentRole, setCurrentRole] = useState('Full Stack Developer');
+    const intervalId = useRef({});
+    const typeWriterRole = useTypewriter(currentRole);
+
+    useEffect(() => {
+      intervalId.current = setInterval(() => {
+          index = index > 2 ? 0 : ++index;
+          setCurrentRole(role[index]);
+      }, 4000)
+      
+      return () => clearInterval(intervalId.current);
+    }, [role])
 
     return (
       <div className='about center'>
@@ -16,7 +31,7 @@ function About(props) {
           </h1>
         )}
   
-        {role && <h2 className='about__role'>A {role}.</h2>}
+        {role && <h2 className='cursor about__role'>A {typeWriterRole}.</h2>}
         <br />
         <img className='about__img' src="AboutMeImgs/JohnnyImg.jpeg" alt="johnnyimg" />
 
