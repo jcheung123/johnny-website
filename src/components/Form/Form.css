@@ -2,7 +2,7 @@ input {
     border: 2px solid var( --clr-fg-alt);
     width: 290px;
     border-radius: 5px 5px;
-    padding: 8px 5px;
+    padding: 15px;
 }
 
 #email {

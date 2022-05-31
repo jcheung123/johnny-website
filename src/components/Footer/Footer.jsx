@@ -6,10 +6,10 @@ function Footer(props) {
     return (
         <footer>
             <p class="icons">
-                <button><i class="fas fa-envelope"></i></button>
-                <button><i class="fab fa-github"></i> </button>
-                <button><i class="fab fa-instagram"></i></button>
-                <button><i class="fab fa-linkedin"></i></button>
+                <a href="mailto:cheungjc@outlook.com"><button><i class="fas fa-envelope"></i></button></a>
+                <a href="https://github.com/jcheung123/"><button><i class="fab fa-github"></i> </button></a>
+                <a href="https://www.linkedin.com/in/cheung-johnny/"><button><i class="fab fa-linkedin"></i></button></a>
+                <a href="https://www.instagram.com/torontofoodstop/"><button><i class="fab fa-instagram"></i></button></a>
             </p>
             <div class="copyright">
                 <span> made with react and lots of googling</span>

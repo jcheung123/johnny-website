@@ -52,6 +52,10 @@ function About(props) {
               {social.linkedin && (
                 <a href={social.linkedin} className='link'><i class="devicon-linkedin-plain colored"></i></a>
               )}
+              
+              {social.linkedin && (
+                <a href={social.instagram} className='link'><i class="fab fa-instagram"></i></a>
+              )}
             </>
           )}
         </div>
